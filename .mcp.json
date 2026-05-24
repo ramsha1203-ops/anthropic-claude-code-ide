@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bamboohr": {
+      "command": "npx",
+      "args": ["-y", "bamboohr-mcp"],
+      "env": {
+        "BAMBOOHR_API_KEY": "${BAMBOOHR_API_KEY}",
+        "BAMBOOHR_SUBDOMAIN": "gocompliance"
+      }
+    }
+  }
+}
